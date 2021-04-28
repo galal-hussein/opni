@@ -21,3 +21,5 @@ spec:
           value: "nats://nats_client:VfU6TcAl9x@nats-client.default.svc:4222"
         - name: ES_ENDPOINT
           value: "https://opendistro-es-client-service.default.svc.cluster.local:9200"
+        - name: FAIL_KEYWORDS
+          value: "fail,error,missing,unable"
